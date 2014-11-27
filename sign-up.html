@@ -2,10 +2,43 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Sign up</title>
+  <title>Sign up Now!</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-
-</head>
-</html>
+  <link href="main.css" rel="stylesheet">
 <body>
-</body>
+    
+    <form action="thanks.html" method="post">
+        
+        <div> 
+          <label for="name">Name</label>
+          <input id="name">
+       </div> 
+        
+       <div> 
+          <label for="email-add">E-mail address</label>
+          <input class="field" type="email" id="email-addr">
+       </div>
+        
+        <div> 
+          <p>Do you want to sign up for our newsletter?</p> 
+            
+          <input type="radio" id="no" name="newsletter">
+          <label for="no">Yes</label>
+            
+          <input type="radio" id="kinda" name="newsletter">
+          <label for="kinda">No thanks</label>
+        
+        <div> 
+          <label for="questions">If you have any questions, please write it below and send us an email, and we will reply as soon as possible</label>
+          <textarea id="questions"></textarea>
+        </div> 
+        
+        <div>
+            <button type="submit">Send</button>
+        </div>         
+            
+            
+    </form>
+    
+    </body>
+    </html>
