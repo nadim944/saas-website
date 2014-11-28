@@ -60,6 +60,7 @@ article {
     padding: 0;
     overflow: hidden;   
 }
+
 .title {
     margin:0;
 }
@@ -85,7 +86,7 @@ header {
 }
 
 .banner {
-    padding-top: 50%;
+    padding-top: 0;
     margin: 0;
     overflow: hidden;
     background-image: url(../Images/banner.jpg);
@@ -95,12 +96,13 @@ header {
     background-position: center center;
 }
 
-banner-title {
+.banner-title {
     text-align: center;
     text-color: white;
+    margin-top: 20%;
 }
 
-button {
+.sign-up-button {
     padding: 0;
     padding-right: .5rem;
     padding-left: .5rem;
@@ -109,6 +111,9 @@ button {
     background-color: #FFF100;
     color: black;
     margin-bottom: .5rem;
+}
+.send a {
+    text-decoration: none;
 }
 
 p {
@@ -218,8 +223,7 @@ summary {
 .nav-top ul { 
 	margin: 0;
     padding:0;
-    list-style-type: none;
-    
+    list-style-type: none;   
 }
 
 .nav-top a,
@@ -261,19 +265,16 @@ nav-bottom a,
     background-color: black;
     color: #fff100;
     overflow: hidden;
-    padding-top: 1em;
-   
+    padding-top: 1em; 
 }
 
 .nav-bottom li{
     list-style: none;
-    float: left;
-    
+    float: left;  
 }
 
 .nav-bottom a {
     text-decoration: none;
-
 }
 
 .nav-top[data-state="expanded"] {
@@ -282,7 +283,7 @@ nav-bottom a,
 }
 
 .social-media {
-    padding: 3rem 10% 0;
+    padding: 2em 0;
     overflow: hidden;
 }
 
@@ -322,8 +323,9 @@ nav-bottom a,
 footer {
     background-color:#FFF100;
     margin-top: 1.5rem auto;
-    height: 15rem;
+    height: 17.5em;
     overflow: hidden;
+    border-top: solid black 1em;
 }
 
 ul {
@@ -331,29 +333,6 @@ ul {
     margin:0;
     padding: 0 1rem;
     padding-bottom: 1.5rem;
-}
-
-.unit {
-    display:block;
-    float:left;
-    position:relative;
-    width: auto;
-}
-
-.unit-s-1 {
-    width: 100%;
-}
-
-.unit-s-1-2 {
-    width: 50%;   
-}
-
-.unit-s-1-3 {
-    width: 33.333%;
-}
-
-.gutter {
-    padding: 1.5rem .5rem;
 }
 
 .desc-img {
@@ -384,6 +363,10 @@ ul {
     clear: both;
 }
 
+.copyright {
+    color: red;
+    position: absolute;
+}
 @media only screen and (min-width: 25em){
 
     .nav-top {
@@ -404,7 +387,7 @@ ul {
     .nav-top li {
         display: inline-block;
         margin: 0.5em;
-        pading: 1em;
+        padding: 1em;
     }
     
     .nav-btn {
@@ -429,21 +412,6 @@ input+label {
     display: inline-block;
 }
 
-button {
-    font-size: 3em;
-    font-family: cursive;
-    font-weight: bold;
-    padding: 0.5em 1em;
-    border: 5px solid #000;
-    background-image: linear-gradient(45deg, black, #FFF100, black);
-    border-radius: 15px;
-    color: #fff;
-    cursor: pointer;
-}
-
-button:hover {
-    background-image: linear-gradient(-45deg, #FFF100, black, #FFF100);
-}
 
 button:active {
     border-color: #FFF100;
