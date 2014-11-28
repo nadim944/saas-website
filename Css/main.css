@@ -31,6 +31,14 @@ body {
     padding: 0; 
 }
 
+.homepage {
+    padding: 1rem;
+}
+
+.gutter { 
+    padding-left: 1em;
+}
+
 a:focus {
     outline: 3px solid purple;
 }
@@ -56,7 +64,6 @@ a:focus {
 }
 
 article {
-    margin: 1.5rem 5%;
     padding: 0;
     overflow: hidden;   
 }
@@ -103,14 +110,17 @@ header {
 }
 
 .sign-up-button {
-    padding: 0;
-    padding-right: .5rem;
-    padding-left: .5rem;
-    margin-top: 1rem;
-    font-size: 1.5rem;
+    margin: 0% auto;
+    display: block;
+    font-size: 1.2rem;
     background-color: #FFF100;
+    text-align: center;
+    padding: 2px 6px 2px 6px;
+    height: 2rem;
+    width: 8rem;
     color: black;
-    margin-bottom: .5rem;
+    border-radius: 24px;
+    transform: translateY(-50%)
 }
 .send a {
     text-decoration: none;
@@ -120,6 +130,12 @@ p {
     line-height: 1.5rem;
     margin: 0 0 1.5rem;
     font-size: 1rem;
+}
+
+.grey-background {
+    background-color: #E8E8E8;
+    border-radius: 20px;
+    padding: .25rem
 }
 
 h1 { 
@@ -217,11 +233,11 @@ figcaption {
 
 nav-bottom a,
 .nav-bottom a:link,
-.nav-botom a:visited {
+.nav-bottom a:visited {
 	display: block;
 	font-size: 1.6rem;
     padding: .875rem 5%;
-	color: #000;
+	color: #fff100;
 	text-decoration: none;
     background-color: black;   
 }
@@ -232,6 +248,7 @@ nav-bottom a,
     background-color: #fff100;
     color: white; 
 }
+
 .nav-bottom {
     background-color: black;
     color: #fff100;
@@ -294,7 +311,7 @@ nav-bottom a,
 footer {
     background-color:#FFF100;
     margin-top: 1.5rem auto;
-    height: 17.5em;
+    height: 18.5em;
     overflow: hidden;
     border-top: solid black 1em;
 }
@@ -337,6 +354,7 @@ ul {
 .copyright {
     color: black;
     position: absolute;
+    padding-top: 1em;
 }
 @media only screen and (min-width: 25em){
 
