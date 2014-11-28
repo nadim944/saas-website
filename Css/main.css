@@ -131,16 +131,6 @@ h1 {
     padding: .5rem 5%;
 }
 
-figure {
-    margin: 0 auto 1.5rem;
-     width: 100%;
-}
- 
-figcaption {
-    font-size: .80rem;
-    margin: .5rem 5%;  
-}
-
 h2 {
     background-color: black;
     font-size: 1.5rem;
@@ -157,6 +147,17 @@ h3 {
     color: #FFF100;
     text-align: center;
     padding: .5rem 5%;
+}
+
+
+figure {
+    margin: 0 auto 1.5rem;
+     width: 100%;
+}
+ 
+figcaption {
+    font-size: .80rem;
+    margin: .5rem 5%;  
 }
 
 .nav-btn,
