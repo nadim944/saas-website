@@ -82,7 +82,7 @@ header {
     padding: 0;
     margin: 0;
     overflow: hidden;
-    background-color: black;
+    background-color: #222;
 }
 
 .banner {
@@ -123,8 +123,12 @@ p {
 }
 
 h1 { 
-    color: #FFF100;  
+     background-color:  rgba(0, 0, 0, 0.6);
+    font-size: 1.5rem;
+    margin: 2rem 20%;
+    color: white; 
     text-align: center;
+    padding: .5rem 5%;
 }
 
 figure {
@@ -138,54 +142,21 @@ figcaption {
 }
 
 h2 {
-    background-color: #000;
+    background-color: black;
     font-size: 1.5rem;
     margin: 2rem 20%;
-    color: white; 
+    color: #FFF100; 
     text-align: center;
     padding: .5rem 5%;
 }
 
 h3 { 
-    background-color: #000;
+    background-color: black;
     font-size: 1.5rem;
     margin: 2rem 20%;
     color: #FFF100;
     text-align: center;
     padding: .5rem 5%;
-}
-
-h4 { 
-    background-color: #000;
-    font-size: 1.5rem;
-    margin: 2rem 20%;
-    color: #FFF100;
-    text-align: center;
-    padding: .5rem 5%;
-}
-
-h5 { 
-    background-color: #000;
-    font-size: 1.5rem;
-    margin: 2rem 20%;
-    color: #FFF100;
-    text-align: center;
-    padding: .5rem 5%;
-}
-
-h6 { 
-    background-color: #000;
-    font-size: 1.5rem;
-    margin: 2rem 20%;
-    color: #FFF100;
-    text-align: center;
-    padding: .5rem 5%;
-}
-
-summary {
-     background-color: black;
-     color: white;
-     margin: 1.5rem;
 }
 
 .nav-btn,
@@ -258,7 +229,7 @@ nav-bottom a,
 .nav-bottom a:hover,
 .nav-bottom a:focus,
 .nav-bottom a:active {
-    background-color: #222;
+    background-color: #fff100;
     color: white; 
 }
 .nav-bottom {
@@ -364,7 +335,7 @@ ul {
 }
 
 .copyright {
-    color: red;
+    color: black;
     position: absolute;
 }
 @media only screen and (min-width: 25em){
