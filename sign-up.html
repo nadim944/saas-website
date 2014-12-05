@@ -1,10 +1,39 @@
 <!DOCTYPE html>
 <html lang="en-ca">
 <head>
-  <meta charset="utf-8">
-  <title>Sign up Now!</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="main.css" rel="stylesheet">
+	<meta charset="utf-8">
+	<title>Fitness Ledger</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="Css/grid.css" rel="stylesheet">
+    <link href="Css/typography.css" rel="stylesheet">
+    <link href="Css/main.css" rel="stylesheet">
+    
+</head>    
+<body>
+    
+    <ul class="skip-links"> 
+        <li><a href="#main">Skip to main content</a></li>
+        <li><a href="#nav-top">Skip to main navigation</a></li>
+    </ul>
+    
+     <header role="banner" id="top"> 
+         <a href="index.html">
+            <img src= "Images/logo.svg" alt="fitness ledgerlogo" class="logo">
+         </a>
+
+          <a href="#nav" id="nav" class="nav-btn">Navigate</a> 
+             
+		<nav role="navigation" id="nav-top" class="nav-top">	
+             <ul>
+				<li><a href="index.html">Login</a></li>
+				<li><a href="price.html">Pricing</a></li>
+                <li><a href="sign-up.html">SignUp</a></li>
+			</ul>
+        </nav>  
+    </header>
+    
+    <img src= "Images/signupbackgroundimage.jpg" alt="banner" class="banner">
+          
 <body>
     
     <form action="thanks.html" method="post">
@@ -35,10 +64,32 @@
         
         <div>
             <button type="submit">Send</button>
-        </div>         
-            
+        </div>            
             
     </form>
-    
     </body>
-    </html>
+    <footer role="contentinfo">
+       
+    <div class="social-media">
+        <a href="http://www.twitter.com"><img src= "Images/twitter-logo.svg" alt="social-media"></a>
+        <a href= "http://www.facebook.com"><img src= "Images/facebook-logo.svg" alt="social-media"></a>
+        <a href= "http://www.googleplus.com"><img src= "Images/googleplus-logo.svg" alt="social-media"></a>
+    </div>
+       
+       <nav id= "nav-bottom" class="nav nav-bottom">
+             
+             <ul class="nav-bottom">
+             <li class= "gutter-half" ><a href="index.html">Home</a></li>
+             <li class= "gutter-half"><a href="price.html">Pricing</a></li>
+             <li class= "gutter-half"><a href="sign-up.html">Signup</a></li>
+            </ul>
+             
+         </nav>
+             
+        <p class="micro copyright gutter">©Copy right Fitness Ledger · <a href="#top">Top</a></p>
+       </footer>
+        
+         <script src="js/toggle.js"></script>
+         <script src="js/nav.js"></script>
+
+</html>
