@@ -444,22 +444,7 @@ table {
   border-spacing: 0;
 }
 
-.plans {
-  margin: 40px auto;
-  width: 660px;
-  zoom: 1;
-}
-.plans:before, .plans:after {
-  content: '';
-  display: table;
-}
-.plans:after {
-  clear: both;
-}
-
 .plan {
-  float: left;
-  width: 220px;
   margin: 10px 0;
   padding: 20px;
   text-align: center;
