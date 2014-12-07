@@ -207,6 +207,13 @@ figcaption {
     margin: 0;
 }
 
+.signuplink {
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 1.6rem;
+    width: 7rem;
+}
+
 .nav-top ul { 
 	margin: 0;
     padding:0;
@@ -553,4 +560,23 @@ table {
 }
 .plan-tall + .plan {
   border-left: 0;
+}
+
+/* ----------------- Sign Up Page --------------- */
+
+.form-wrapper {
+    width: 100%;
+    padding: 10%;
+}
+
+.radio-toggle {
+ margin-left: 1.5em;   
+}
+
+.form-item {
+    margin: .5em 0;
+}
+
+.item-containers {
+    margin-bottom: .75em;   
 }

@@ -4,9 +4,9 @@
 	<meta charset="utf-8">
 	<title>Fitness Ledger</title>
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-    <link href="Css/grid.css" rel="stylesheet">
-    <link href="Css/typography.css" rel="stylesheet">
-    <link href="Css/main.css" rel="stylesheet">
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/typography.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
     
 </head>    
 <body>
@@ -27,62 +27,63 @@
              <ul>
 				<li><a href="index.html">Home</a></li>
 				<li><a href="price.html">Pricing</a></li>
-                <li><a href="sign-up.html">SignUp</a></li>
+                <li><div class="signuplink"><a href="sign-up.html">SignUp</a></div></li>
 			</ul>
         </nav>  
     </header>
           
 <body>
     
-    <form action="thanks.html" method="post">
+    <form class="grid form-wrapper" action="thanks.html" method="post">
         
-        <div> 
-          <label for="name">Name</label>
-          <input id="name">
+        <div class="unit unit-xs-1 item-containers"> 
+          <label class=" unit unit-xs-1 form-item" for="name">Name</label>
+          <input class=" unit unit-xs-1 form-item" id="name">
        </div> 
         
-       <div> 
-          <label for="email-add">E-mail address</label>
-          <input class="field" type="email" id="email-addr">
+       <div class="unit unit-xs-1"> 
+          <label class="unit unit-xs-1 form-item" for="email-add">E-mail address</label>
+          <input class="field unit-xs-1 form-item" type="email" id="email-addr">
        </div>
         
-        <div> 
-          <p>Do you want to sign up for our newsletter?</p> 
-            
-          <input type="radio" id="no" name="newsletter">
-          <label for="no">Yes</label>
-            
-          <input type="radio" id="kinda" name="newsletter">
-          <label for="kinda">No thanks</label>
+        <div class="unit unit-xs-1"> 
+          <p class="unit unit-xs-1">Do you want to sign up for our newsletter?</p> 
+            <div class="unit unit-xs-1">
+              <label class="unit unit-xs-1-2" for="no">Yes<input class="radio-toggle" type="radio" id="no" name="newsletter"></label>
+              <label class="unit unit-xs-1-2" for="kinda">No thanks<input class="radio-toggle" type="radio" id="kinda" name="newsletter"></label>
+            </div>
+        </div>
         
-        <div> 
-          <label for="questions">If you have any questions, please write it below and send us an email, and we will reply as soon as possible</label>
-          <textarea id="questions"></textarea>
+        <div class="unit unit-xs-1"> 
+          <label class="unit unit-xs-1" for="questions">If you have any questions, please write it below and send us an email, and we will reply as soon as possible</label>
+          <textarea class="unit unit-xs-1" id="questions"></textarea>
         </div> 
         
-        <div>
+        <div class="unit unit-xs-1">
             <button type="submit">Send</button>
         </div>            
             
     </form>
-    </body>
-    <footer role="contentinfo">
+    
+</body>
+    
+<footer role="contentinfo">
        
-    <div class="social-media">
-        <a href="http://www.twitter.com"><img src= "Images/twitter-logo.svg" alt="social-media"></a>
-        <a href= "http://www.facebook.com"><img src= "Images/facebook-logo.svg" alt="social-media"></a>
-        <a href= "http://www.googleplus.com"><img src= "Images/googleplus-logo.svg" alt="social-media"></a>
-    </div>
+<div class="social-media">
+    <a href="http://www.twitter.com"><img src= "Images/twitter-logo.svg" alt="social-media"></a>
+    <a href= "http://www.facebook.com"><img src= "Images/facebook-logo.svg" alt="social-media"></a>
+    <a href= "http://www.googleplus.com"><img src= "Images/googleplus-logo.svg" alt="social-media"></a>
+</div>
        
-       <nav id= "nav-bottom" class="nav nav-bottom">
+    <nav id= "nav-bottom" class="nav nav-bottom">
              
-             <ul class="nav-bottom">
-             <li class= "gutter-half" ><a href="index.html">Home</a></li>
-             <li class= "gutter-half"><a href="price.html">Pricing</a></li>
-             <li class= "gutter-half"><a href="sign-up.html">Signup</a></li>
-            </ul>
+     <ul class="nav-bottom">
+         <li class= "gutter-half" ><a href="index.html">Home</a></li>
+         <li class= "gutter-half"><a href="price.html">Pricing</a></li>
+         <li class= "gutter-half"><a href="sign-up.html">Signup</a></li>
+    </ul>
              
-         </nav>
+    </nav>
              
         <p class="micro copyright gutter">©Copy right Fitness Ledger · <a href="#top">Top</a></p>
        </footer>
