@@ -231,7 +231,7 @@ figcaption {
 .nav-top a:link,
 .nav-top a:visited {
 	display: block;
-	font-size: 1.4rem;
+	font-size: 1.3rem;
     padding: .875rem 5%;
 	color: #000;
 	text-decoration: none;
@@ -249,7 +249,7 @@ nav-bottom a,
 .nav-bottom a:link,
 .nav-bottom a:visited {
 	display: block;
-	font-size: 1.4rem;
+	font-size: 1.3rem;
     padding: .875rem 5%;
 	color: #fff100;
 	text-decoration: none;
