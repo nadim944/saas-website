@@ -125,7 +125,7 @@ header {
     width: 9rem;
     color: black;
     border-radius: 24px;
-    transform: translateY(-50%)
+    transform: translateY(-50%);
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
