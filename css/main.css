@@ -127,10 +127,35 @@ header {
     color: black;
     border-radius: 24px;
     transform: translateY(-50%)
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .sign-up-button:hover {
-    background-color: white;
+    background-color: black;
+    color: #FFF100;
+    border-color: #FFF100;
+}
+
+.submit-button {
+    margin: 0% auto;
+    font-size: 1.2rem;
+    background-color: #FFF100;
+    padding: 2px 6px 2px 3px;
+    height: 1.9rem;
+    width: 9rem;
+    color: black;
+    border-radius: 24px;
+    transform: translateY(-50%)
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.submit-button:hover {
+    background-color: black;
+    color: white;
 }
 
 .send a {
@@ -522,6 +547,7 @@ table {
   color: grey;
   text-align: center;
 }
+
 .plan-features > li > strong {
   font-weight: bold;
   color: black;
@@ -541,6 +567,12 @@ table {
   border: 1px solid #222;
   border-bottom-color: black;
   border-radius: 3px;
+}
+
+.plan-button:hover {
+    background-color: black;
+    color: #FFF100;
+    border-color: #FFF100;
 }
 
 .plan-button:active {
