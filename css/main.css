@@ -140,11 +140,12 @@ header {
 
 .submit-button {
     margin: 0% auto;
+    display: inline-block;
     font-size: 1.2rem;
     background-color: #FFF100;
     padding: 2px 6px 2px 3px;
-    height: 1.9rem;
-    width: 9rem;
+    height: 1.5rem;
+    width: 4.5rem;
     color: black;
     border-radius: 24px;
     transform: translateY(-50%)
@@ -163,7 +164,7 @@ header {
 }
 
 p {
-    line-height: 1.5rem;
+    line-height: 3rem;
     margin: 0 0 1.5rem;
     font-size: 1rem;
 }
@@ -328,7 +329,7 @@ nav-bottom a,
 }
 
 .social-media img {
-    width: 75px;
+    width: 60px;
     margin: 0 auto;
 }
 
