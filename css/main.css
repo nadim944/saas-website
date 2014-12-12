@@ -176,7 +176,7 @@ p {
 }
 
 h1 { 
-     background-color:  rgba(0, 0, 0, 0.6);
+    background-color:  rgba(0, 0, 0, 0.6);
     font-size: 1.5rem;
     margin: 2rem 20%;
     color: white; 
@@ -439,135 +439,136 @@ ul {
     }
     
     label {
-    display: block;
+        display: block;
 }
     
     input+label {
-    display: inline-block;
+        display: inline-block;
 }
     
     button:active {
-    border-color: #FFF100;
+        border-color: #FFF100;
 }
     
     .field {
-    font-size: 1.5em;
-    padding: 0.5em;
-    border-radius: 4px;
-    border: 1px solid #666;
-    background-color: #e2e2e2;
+        font-size: 1.5em;
+        padding: 0.5em;
+        border-radius: 4px;
+        border: 1px solid #666;
+        background-color: #e2e2e2;
 }
     
     .field:focus {
-    background-color: #FFF100;
-    color: #fff;
-    outline: 3px solid #000;
+        background-color: #FFF100;
+        color: #fff;
+        outline: 3px solid #000;
 }  
 }
 
 body {
-  line-height: 1;
+    line-height: 1;
 }
 
 ol, ul {
-  list-style: none;
+    list-style: none;
 }
 
 blockquote, q {
-  quotes: none;
+    quotes: none;
 }
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: '';
-  content: none;
+    content: '';
+    content: none;
 }
 
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 .plan {
-  margin: 10px 0;
-  padding: 20px;
-  text-align: center;
-  background: #FFF100;
-  background-clip: padding-box;
-  border: solid black;
-  border-width: 2px 0 2px 2px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+    padding: 20px;
+    text-align: center;
+    background: #FFF100;
+    background-clip: padding-box;
+    border: solid black;
+    border-width: 2px 0 2px 2px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
 .plan:first-child {
-  border-top-left-radius: 7px;
-  border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
 }
 
 .plan:last-child {
-  border-width: 2px;
-  border-top-right-radius: 7px;
-  border-bottom-right-radius: 7px;
+    border-width: 2px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
 }
 
 .plan-title {
-  position: relative;
-  margin: -20px -10px 20px;
-  padding: 20px;
-  line-height: 1;
-  font-size: 16px;
-  font-weight: bold;
-  color: #FFF100;
+    position: relative;
+    margin: -20px -10px 20px;
+    padding: 20px;
+    line-height: 1;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFF100;
 }
 
 .plan-price {
-  margin: 0 auto 20px;
-  width: 90px;
-  height: 90px;
-  line-height: 90px;
-  font-size: 19px;
-  font-weight: bold;
-  color: #FFF100;
-  background: black;
-  border-radius: 45px;
+    margin: 0 auto 20px;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    font-size: 19px;
+    font-weight: bold;
+    color: #FFF100;
+    background: black;
+    border-radius: 45px;
 }
+
 .plan-price > span {
-  font-size: 12px;
-  font-weight: normal;
-  color: white;
+    font-size: 12px;
+    font-weight: normal;
+    color: white;
 }
 
 .plan-features {
-  margin-bottom: 20px;
-  line-height: 2;
-  font-size: 12px;
-  color: grey;
-  text-align: center;
+    margin-bottom: 20px;
+    line-height: 2;
+    font-size: 12px;
+    color: grey;
+    text-align: center;
 }
 
 .plan-features > li > strong {
-  font-weight: bold;
-  color: black;
+    font-weight: bold;
+    color: black;
 }
 
 .plan-button {
-  display: inline-block;
-  vertical-align: top;
-  padding: 0 15px;
-  line-height: 30px;
-  font-weight: bold;
-  color: #FFF100;
-  text-transform: uppercase;
-  text-decoration: none;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
-  background: black;
-  border: 1px solid #222;
-  border-bottom-color: black;
-  border-radius: 3px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 15px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #FFF100;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
+    background: black;
+    border: 1px solid #222;
+    border-bottom-color: black;
+    border-radius: 3px;
 }
 
 .plan-button:hover {
@@ -577,41 +578,41 @@ table {
 }
 
 .plan-button:active {
-  color: rgba(255, 255, 255, 0.95);
-  background: black;
-  border-color: black #222 #222;
+    color: rgba(255, 255, 255, 0.95);
+    background: black;
+    border-color: black #222 #222;
 }
 
 .plan-tall {
-  margin: 0;
-  background-color: #FFF100;
-  border-width: 2px;
-  border-radius: 7px;
+    margin: 0;
+    background-color: #FFF100;
+    border-width: 2px;
+    border-radius: 7px;
 }
 
 .plan-tall > .plan-title {
-  font-size: 18px;
+    font-size: 18px;
 }
 
 .plan-tall > .plan-price {
-  width: 100px;
-  height: 100px;
-  line-height: 100px;
-  font-size: 21px;
-  border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 21px;
+    border-radius: 50px;
 }
 
 .plan-tall > .plan-features {
-  font-size: 13px;
+    font-size: 13px;
 }
 
 .plan-tall > .plan-button {
-  padding: 0 16px;
-  line-height: 32px;
+    padding: 0 16px;
+    line-height: 32px;
 }
 
 .plan-tall + .plan {
-  border-left: 0;
+    border-left: 0;
 }
 
 .form-wrapper {
@@ -620,7 +621,7 @@ table {
 }
 
 .radio-toggle {
- margin-left: 1.5em;   
+    margin-left: 1.5em;   
 }
 
 .form-item {
