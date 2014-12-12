@@ -329,8 +329,9 @@ nav-bottom a,
 .thanks-banner {
     background: url("../images/thanks.background.jpg");
     background-size: cover;
-    padding: 5em 0;
+    padding: 10em 0;
     margin: -1.5rem 0;
+    background-position: center;
 }
 
 .social-media img {
